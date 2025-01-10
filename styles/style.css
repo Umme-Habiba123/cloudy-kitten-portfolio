@@ -13,6 +13,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+  
    
     
 }
@@ -21,6 +22,7 @@ nav{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat:no-repeat ;
     background-position: top left , bottom right;
+    background-color: #FFF8F3;
 } 
 
 .nav-styles{
@@ -71,4 +73,55 @@ nav li a {
     display: flex;
     justify-content: space-between;
 margin: 0 35px 0 200px;
+}
+.main{
+   max-width: 1140px;
+   margin: 0 auto;  
+}
+
+.about-sec{      /*about secondry bg  */ /*about*/
+    justify-content:space-around;
+    align-items:center; 
+    background-color:#FFF8F3 ;                                       
+    margin: 0 auto;
+    border-radius: 200px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;                  
+}                      
+                           
+   
+
+.about{
+    
+   
+}
+
+.section-title{
+    color:#181818 ;
+    font-size: 35px;
+    font-weight:bold;                       
+    margin-top: 130;
+    text-align: center;
+}
+.about-describe{
+    color:#757575 ;
+    font-size: 18px;      /*section-describtion*/
+    }
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item{
+    font-size: 20px;
+    color:#757575;
+}
+.item-description{
+    font-size: 20px;
+    color: #474747 ;
+    font-weight: bold;
+    gap: 49px;
 }
