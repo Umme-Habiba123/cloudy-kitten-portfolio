@@ -93,10 +93,8 @@ margin: 0 35px 0 200px;
                            
    
 
-.about{
-    
-   
-}
+
+
 
 .section-title{
     color:#181818 ;
@@ -125,3 +123,40 @@ margin: 0 35px 0 200px;
     font-weight: bold;
     gap: 49px;
 }
+/* secont section */
+.reactor{
+   margin-bottom: 30px;
+}
+
+.skill-tital{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 20px ;
+}
+.skill-pera{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+    border-radius: 5px;
+    gap: 24px;
+    
+}
+.skill-description{
+    padding: 20px 30px 33px 33px ;
+    color: #757575;
+    font-size: 16px;
+}
+.skill{
+    
+    border-radius:5px ;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+}
+
+
